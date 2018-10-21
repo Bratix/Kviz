@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary_dark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Dodaj_Pitanje"
+    tools:showIn="@layout/activity_dodaj__pitanje">
+
+    <Button
+        android:id="@+id/kreiraj_pitanje_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:onClick="kreiraj_pitanje"
+        android:text="OK" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tekst_pitanja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tekst pitanja" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="120dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/prvi_odg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prvi odgovor"
+            android:onClick="kreiraj_pitanje" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="202dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/drugi_odg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drugi odgovor" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="288dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/treci_odg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Treci odgovor" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="194dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tacan_odg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tačan odgovor" />
+    </android.support.design.widget.TextInputLayout>
+</RelativeLayout>

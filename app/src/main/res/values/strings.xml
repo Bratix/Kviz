@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kviz</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kviz">Kviz</string>
+    <string name="title_activity_bodovi">Bodovi</string>
+    <string name="title_activity_kraj_kviza">Kraj_kviza</string>
+    <string name="title_activity_lista__igraca">Lista_Igraca</string>
+</resources>
